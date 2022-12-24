@@ -99,6 +99,7 @@ When creating the VM, allow it to create a new Virtual Network (Vnet)
 - Clean up
   - Delete: C:\inetpub\wwwroot\osTicket\setup
   - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
 
 <br />
 <p>
