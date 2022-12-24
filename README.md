@@ -101,6 +101,10 @@ When creating the VM, allow it to create a new Virtual Network (Vnet)
   - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 - Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
 
+Notes: 
+- Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
+- End Users osTicket URL: http://localhost/osTicket/ 
+
 <br />
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
