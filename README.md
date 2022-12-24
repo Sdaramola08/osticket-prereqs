@@ -44,45 +44,62 @@ When creating the VM, allow it to create a new Virtual Network (Vnet)
 
 - Connect to your Virtual Machine with Remote Desktop
 - Install / Enable IIS in Windows
-- Install Web Platrofm installer ()
-  - n/a
-  - n/a
-  - n/a
+- Install Web Platform installer (download from here: [LINK](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6))
+  - Open after installation
+  - Add MySQL 5.5 (it will ask for credentials to be created later)
+    - Name: root
+    - Password: Password1
+  - Add All simple versions of x86 PHP up until 7.3
+  - Fix any failures if required (download from here: [LINK](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6))
+    - Install PHP Version 7.3.8 (or any other version if necessary, [ARCHIVES](https://windows.php.net/downloads/releases/archives/))
+    - Install PHP Manager 1.5.0 for IIS 10 (folder you unzipped on the desktop)
+    - Install Microsoft Visual C++ 2009 Redistributable Package
+
 - Install osTicket v1.15.8
-  - n/a
-  - n/a
-  - n/a
+  - Download osTicket (download from here: [LINK](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6))
+  - Extract and copy the “upload” folder INTO c:\inetpub\wwwroot
+  - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
 - Reload IIS (Open IIS, Stop and Start the Server)
-  - n/a
-  - n/a
-  - n/a
+  - Go to sites -> Default -> osTicket
+  - On the right, click “Browse *:80”
+
 - Enable Estensions in IIS: Note that some extensions are not enabled
-  - n/a
-  - n/a
-  - n/a
+  - Go back to IIS, sites -> Default -> osTicket
+  - Double-click PHP Manager
+  - Click “Enable or disable an extension”
+    - Enable: php_imap.dll
+    - Enable: php_intl.dll
+    - Enable: php_opcache.dll
+
 - Refresh the osTicket site in your browse, observe the changes 
 - Rename:
-  - n/a
-  - n/a
-  - n/a
+  - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+	  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 - Assign Permissions: ost-config.php
-  - n/a
-  - n/a
-  - n/a
+  - Disable inheritance -> Remove All
+  - New Permissions -> Everyone -> All
+
 - Continue Setting up osTicket in the browser (click continue)
-  - n/a
-  - n/a
-  - n/a
-- Download and Install HeidiSQL ()
-  - n/a
-  - n/a
-  - n/a
+  - Name Helpdesk
+  - Default email (receives email from customers)
+
+- Download and Install HeidiSQL (download from here: [LINK](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6))
+  - Create a new session, root/Password1
+  - Connect to the session
+  - Create a database called “osTicket”
+
 - Continue Setting up osTicket in the browser
 - MySQL Database: osTicket
-  - n/a
-  - n/a
-  - n/a
- 
+  - MySQL Username: root
+  - MySQL Password: Password1
+
+- Click "Install Now"
+- Congratulations, osTicet as now been installed
+- Clean up
+  - Delete: C:\inetpub\wwwroot\osTicket\setup
+  - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
 <br />
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
