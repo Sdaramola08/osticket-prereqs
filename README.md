@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 - Create an Azure Account. (Get you credit cards ready!)
-- Sign in to the Azure portal.
+- Sign in to the [Azure portal](https://portal.azure.com)).
 - Click on the "Create a resource" button, which is located on the upper left-hand corner of     the Azure portal.
 - In the search box, type "Virtual Machine" and press Enter.
 - Select the "Virtual Machine" option from the search results.
