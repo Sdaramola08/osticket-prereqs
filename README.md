@@ -36,9 +36,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/3NRB32w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-- Create a Resource Group
+- Create an Azure Account. (Get you credit cards ready!)
+- Sign in to the Azure portal.
+- Click on the "Create a resource" button, which is located on the upper left-hand corner of     the Azure portal.
+- In the search box, type "Virtual Machine" and press Enter.
+- Select the "Virtual Machine" option from the search results.
+- Click the "Create" button to begin the process of creating a new VM.
 - Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
-When creating the VM, allow it to create a new Virtual Network (Vnet)
+  When creating the VM, allow it to create a new Virtual Network (Vnet)
+- In the "Create a Virtual Machine" blade, you will be asked to specify the following details:
+  - Resource group: Choose an existing resource group or create a new one.
+  - Virtual machine name: Enter a unique name for your VM.
+  - Region: Select the region in which you want to create your VM.
+  - Image: Choose an operating system image for your VM. You can select from a list of pre-       configured images or use a custom image.
+  - Size: Select the size of the VM based on the number of cores, memory, and other hardware       resources you want.
+  - Authentication type: Select the authentication type you want to use. You can either use a     password or an SSH public key.
+- Once you have specified all the required details, click the "Review + create" button to       review your selections.
+- Review the summary of your VM configuration and click the "Create" button to create the VM.   It may take a few minutes for the VM to be created.
 
 <h2>Part 2 (Installation)<h2>
 
@@ -95,7 +109,7 @@ When creating the VM, allow it to create a new Virtual Network (Vnet)
   - MySQL Password: Password1
 
 - Click "Install Now"
-- Congratulations, osTicet as now been installed
+- Congratulations, osTicket as now been installed
 - Clean up
   - Delete: C:\inetpub\wwwroot\osTicket\setup
   - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
@@ -105,9 +119,4 @@ Notes:
 - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
 - End Users osTicket URL: http://localhost/osTicket/ 
 
-<br />
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
