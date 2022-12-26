@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- PC/Laptop.
+- PC/Laptop with internet connection
 - A credit card to make a subscription (Do not worry you are not getting chareged, instead you get a free $200 credit after you subscribe).
 - Google Chrome & Google drive.
 - An Email Address
