@@ -56,6 +56,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Part 2 (Installation)<h2>
 
+<p>
+<img src="https://i.imgur.com/10cAbKv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 - Connect to your Virtual Machine with Remote Desktop
 - Install / Enable IIS in Windows
 - Install Web Platform installer (download from here: [LINK](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6))
