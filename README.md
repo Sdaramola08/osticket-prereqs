@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [How to create a Virtual Machine in Azure by Mr. Madakor](https://firebasestorage.googleapis.com/v0/b/coursecareers-prod.appspot.com/o/courses%2Fit-course%2FFINAL_DRAFT_osTicket%20Overview%20and%20Virtual%20Machine%20Creation.mp4?alt=media&token=9a98be70-3ff9-4bfd-a5a2-9649fdc47a25)
+- ### [How to create a Virtual Machine in Azure ft Mr. Madakor](https://firebasestorage.googleapis.com/v0/b/coursecareers-prod.appspot.com/o/courses%2Fit-course%2FFINAL_DRAFT_osTicket%20Overview%20and%20Virtual%20Machine%20Creation.mp4?alt=media&token=9a98be70-3ff9-4bfd-a5a2-9649fdc47a25)
 
 - ### [How To Install osTicket by Mr. Madakor](https://firebasestorage.googleapis.com/v0/b/coursecareers-prod.appspot.com/o/courses%2Fit-course%2FFINAL_DRAFT_Installation.mp4?alt=media&token=4189d60b-8268-4375-a291-4590f73783dc)
 
