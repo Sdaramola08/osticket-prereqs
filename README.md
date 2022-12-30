@@ -8,7 +8,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites by Mr. Madakor](https://firebasestorage.googleapis.com/v0/b/coursecareers-prod.appspot.com/o/courses%2Fit-course%2FFINAL_DRAFT_Installation.mp4?alt=media&token=4189d60b-8268-4375-a291-4590f73783dc)
+- ### [How to create a Virtual Machine on Azure by Mr. Madakor](https://firebasestorage.googleapis.com/v0/b/coursecareers-prod.appspot.com/o/courses%2Fit-course%2FFINAL_DRAFT_osTicket%20Overview%20and%20Virtual%20Machine%20Creation.mp4?alt=media&token=9a98be70-3ff9-4bfd-a5a2-9649fdc47a25)
+
+- ### [How To Install osTicket with Prerequisites by Mr. Madakor](https://firebasestorage.googleapis.com/v0/b/coursecareers-prod.appspot.com/o/courses%2Fit-course%2FFINAL_DRAFT_Installation.mp4?alt=media&token=4189d60b-8268-4375-a291-4590f73783dc)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - PC/Laptop with internet connection
-- A credit card to make a subscription (Do not worry you are not getting chareged, instead you 	 get a free $200 credit after you subscribe).
+- A credit card to make a subscription (Do not worry you are not getting chareged, instead you 	 get a free $200 credit     after you subscribe).
 - Google Chrome & Google drive (Not Mandatory)
 - An Email Address
 
@@ -48,11 +50,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Resource group: Choose an existing resource group or create a new one.
   - Virtual machine name: Enter a unique name for your VM.
   - Region: Select the region in which you want to create your VM.
-  - Image: Choose an operating system image for your VM. You can select from a list of pre-       configured images or use a custom image.
+  - Image: Choose an operating system image for your VM. You can select from a list of pre-       configured images or       use a custom image.
   - Size: Select the size of the VM based on the number of cores, memory, and other hardware       resources you want.
-  - Authentication type: Select the authentication type you want to use. You can either use a     password or an SSH public key.
+  - Authentication type: Select the authentication type you want to use. You can either use a     password or an SSH         public key.
 - Once you have specified all the required details, click the "Review + create" button to       review your selections.
-- Review the summary of your VM configuration and click the "Create" button to create the VM.   It may take a few minutes for the VM to be created.
+- Review the summary of your VM configuration and click the "Create" button to create the VM.   It may take a few minutes   for the VM to be created.
 
 <h2>Part 2 (Installation)<h2>
 
